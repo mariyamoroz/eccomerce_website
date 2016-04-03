@@ -1,0 +1,816 @@
+body{
+    font-family: Arial, Geneva, sans-serif;
+}
+ul{
+    padding-left: 0;
+    list-style-type: none;
+}
+h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 2px #c37429;
+    text-align: center;
+    margin: 0;
+}
+h2{
+    color: #ffc600;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 4px 0 0 0;
+}
+h3{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h4{
+    font-size: 15px;
+    font-weight: bold;
+}
+.align-center{
+    text-align: center;
+}
+.align-right {
+    text-align: right;
+}
+.brown-gradient{
+    background: #120200; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#120200, #390802); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#120200, #390802); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#120200, #390802); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#120200, #390802); /* Standard syntax */
+}
+.lightGrey-gradient{
+    background: #cbc9c0; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#cbc9c0, #fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#cbc9c0, #fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#cbc9c0, #fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#cbc9c0, #fff); /* Standard syntax */
+}
+.lightRed-gradient{
+    background: #990000; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#dc7276, #990000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#dc7276, #990000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#dc7276, #990000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#dc7276, #990000); /* Standard syntax */
+}
+.darkRed-gradient {
+    background: #9e1002; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#a71704, #710d0d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#a71704, #710d0d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#a71704, #710d0d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#a71704, #710d0d); /* Standard syntax */
+}
+.darkRed-gradient-button{
+    background: #600d02; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ad6565, #600d02); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ad6565, #600d02); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ad6565, #600d02); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ad6565, #600d02); /* Standard syntax */
+}
+.text-color_white{
+    color: #fff;
+}
+
+/* ------------------ header section dovidnyk start ---------------- */
+
+#dovidnyk{
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+}
+#dovidnyk ul{
+    list-style-image: url(../images/header/square-header.png);
+}
+#first-li{
+    list-style-image: none;
+    list-style-type: none;
+}
+#dovidnyk li{
+    font-size: 13px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#dovidnyk a{
+    color: #c0c0c0;
+}
+#dovidnyk a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.text-header{
+    font-weight: bold;
+}
+.icon-box{
+    padding-right: 0;
+    padding-left: 0;
+}
+.flag{
+    margin-right: 15px;
+}
+
+/* ------------------ header section dovidnyk end ---------------- */
+
+/* ------------------ header section logo start ---------------- */
+
+#logo{
+    background: url(../images/header/background_header.jpg) no-repeat center;
+    background-size: cover;
+}
+.verticalCenter{
+    line-height: 100px;
+}
+.shopping-text{
+    font-size: 20px;
+    margin-top: 20px;
+}
+#checkOut{
+    border: 1px inset grey;
+    border-radius: 10px;
+    height: 25px;
+    line-height: 22px;
+    width: 110px;
+    background-color: #b20e00;
+    color: #ffc200;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 30px;
+}
+.search-container{
+    line-height: 100px;
+    text-align: right;
+    padding-right: 0;
+}
+.search{
+    width: 80%;
+    height: 36px;
+    line-height: 36px;
+    vertical-align: middle;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border: 1px inset grey;
+    border-right: none;
+    font-size: 13px;
+    padding-left: 15px;
+    box-shadow: 0 0 2px #575555 inset;
+    outline: none;
+}
+.search::-webkit-input-placeholder{
+    color: #51453d;
+}
+.GO{
+    width: 48px;
+    height: 36px;
+    line-height: 30px;
+    vertical-align: middle;
+    border: 1px inset grey;
+    border-left: none;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    margin-left: -5px;
+    font-size: 20px;
+    color: #f3e053;
+    box-shadow: 0 0 10px #710d0d inset;
+}
+
+/* ------------------ header section logo end ---------------- */
+
+/* ------------------ header section logo end ---------------- */
+
+nav{
+    border-top: 1px outset #f6c246;
+    background-color: #850d02;
+    box-shadow: 0 10px 15px #191412, 0 89px 128px 58px #B0AC9F;
+    overflow: hidden;
+}
+#menu{
+    margin-bottom: 0;
+}
+#menu li{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 7px 14px;
+    padding: 5px 11px;
+}
+#menu a{
+    color: #fff;
+}
+#menu li:hover{
+    background: #f54343; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f54343, transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f54343, transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f54343, transparent); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f54343, transparent); /* Standard syntax */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-color: #f6c246;
+}
+#menu a:hover{
+    text-decoration: none;
+}
+.sm-hidden{
+    display: none;
+}
+
+/* ------------------ header section logo end ---------------- */
+
+/* ------------------ article allContent start ---------------*/
+
+#allContent{
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 5px 40px rgba(0, 0, 0, .1) inset;
+    padding: 10px;
+    border-top-left-radius: 34px;
+    border-top-right-radius: 34px;
+    border-bottom: none;
+    background-color: #fff;
+}
+
+/* ------------------ article allContent end ---------------*/
+
+/* ------------------ section productTitle start ---------------*/
+
+#productTitle{
+    position: relative;
+}
+#productTitle img{
+    min-width: 100%;
+    position: relative;
+}
+#content-box{
+    background-color: #2a2c24;
+    opacity: 0.9;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+}
+.text-content{
+    font-size: 13px;
+}
+
+/* ------------------ section productTitle end ---------------*/
+
+/* ------------------ section products start ---------------*/
+
+#products{
+    padding-top: 28px;
+}
+
+/* ------------------ menu-list start -----------------------*/
+
+.menu-listHeader{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0;
+}
+.menu-list{
+    background-color: #ffeeb7;
+    padding: 13px 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.menu-list li{
+
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 0 8px 35px;
+}
+.menu-list a{
+    text-decoration: none;
+    color: #434343;
+}
+.menu-list a:hover{
+    color: #b20e00;
+}
+.menu-list hr{
+    width: 90%;
+    margin: 0 auto;
+}
+.dropdown{
+    display: none;
+}
+/* ------------------ menu-list end -----------------------*/
+
+/* ------------------ select-box start -----------------------*/
+
+.text-select, .text-select a{
+    font-size: 12px;
+    color: #747474;
+}
+label.text-select{
+    vertical-align: top;
+}
+.text-select a{
+    text-decoration: none;
+}
+.all-selects{
+    display: inline-block;
+}
+.select-box{
+    display: inline-block;
+    background: url("../images/arrow.png") no-repeat right bottom;
+    background-size: 25px 25px;
+    margin-left: 12px;
+}
+.select-box select{
+    border-radius: 0;
+    background: transparent;
+    height: 25px;
+    padding: 5px;
+    border: 1px solid #bebebe;
+    line-height: 1;
+    -webkit-appearance: none;
+    width: 140px;
+    outline: none;
+}
+.pages{
+    display: inline-block;
+    float: right;
+}
+
+/* ------------------ select-box start -----------------------*/
+
+/* ---------------------- items start ------------------------*/
+
+.item{
+    margin-bottom: 40px;
+}
+.productName{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.item img{
+    max-height: 114px;
+}
+.productPrice{
+    font-size: 13px;
+}
+.price{
+    color: #b20e00;
+}
+
+/* ---------------------- items end ------------------------*/
+
+/* ------------------- pagination start---------------------*/
+
+.pagination{
+    margin-bottom: 10px;
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.pagination > li > a, .pagination > li > span{
+    color: #b20e00;
+    border: none;
+}
+.pagination > li > a:hover {
+    color: #fff;
+    background-color: #b20e00;
+}
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover{
+    border: none;
+    background-color: #b20e00;
+    color: #fff;
+}
+#underPagination{
+    border-color: #bebebe;
+    margin: 0;
+}
+
+/* ---------------------- pagination end---------------------*/
+
+/* -------------------- social-network start ----------------*/
+
+.social-network{
+    background-color: #f5f5f2;
+    border-radius: 10px;
+    padding: 20px;
+}
+.socialNetwork-title{
+    font-size: 15px;
+    text-align: center;
+}
+.social-network input{
+    width: 100%;
+    outline: none;
+}
+.joinNow{
+    display: block;
+    margin: 5px auto;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px 8px;
+}
+.network-container{
+    margin-top: 10px;
+}
+
+/* ------------------- social-network end -----------------*/
+
+/* ------------------- payments start --------------------*/
+
+.payments{
+    margin-top: 40px;
+}
+.payments img{
+    margin: 20px auto;
+}
+
+/* ------------------- payments end ----------------------*/
+
+/* ------------ slider featuredProducts start ------------*/
+
+#featuredProducts{
+    box-shadow: 0 0 10px 5px #ececec;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #bebebe;
+    padding: 30px 25px 15px 25px;
+    margin: 20px 15px;
+}
+#featuredProducts img{
+    margin: 0 auto;
+}
+input.slick-prev{
+    top: 50%;
+    z-index: 10;
+    margin-top: -21px;
+    left: -8px;
+    position: absolute;
+}
+input.slick-next{
+    z-index: 10;
+    left: 100%;
+    margin-left: -27px;
+    bottom: 50%;
+    margin-bottom: -20px;
+    position: absolute;
+}
+.slider-text{
+    color: #b20e00;
+    text-align: center;
+    margin: 10px 10px 0 10px;
+}
+
+/* ------------ slider featuredProducts end ------------*/
+
+/* ---------------- section products end ---------------*/
+
+/* ------------ footer securitySearch start ------------*/
+
+#securitySearch{
+    margin-top: -20px;
+    border-bottom: 1px outset #f2706f;
+}
+#securitySearch .search-container{
+    line-height: 50px;
+}
+.securitySearch-contentBox{
+    margin: 10px 0;
+}
+.securitySearch-contentBox img{
+    min-height: 45px;
+}
+.securitySearch-text{
+    display: inline-block;
+    margin-left: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+.securitySearch-contentBox .search, .GO{
+    border: none;
+    outline: none;
+}
+
+/* ------------ footer securitySearch end ------------*/
+
+/* -------- footer contactInformation start ----------*/
+
+#contactInformation{
+    padding: 35px 0;
+}
+#contactInformation ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+#contactInformation a{
+    color: #cfcfcf;
+    text-decoration: none;
+    font-size: 13px;
+}
+#contactInformation a:hover{
+    color: #fff;
+}
+
+/* -------- footer contactInformation start ----------*/
+
+/* ----------------- @media start -------------------*/
+
+@media(min-width: 1201px){
+    .securitySearch-text{
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    #menu li{
+        font-size: 14px;
+        margin: 7px;
+    }
+    .pages{
+        padding-left: 0;
+    }
+    .item img {
+        max-height: 108px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    #dovidnyk li{
+        font-size: 11px;
+        margin-right: 9px;
+        margin-left: 3px;
+    }
+    #dovidnyk .text-header{
+        font-size: 12px;
+    }
+    .flag{
+        margin-right: 5px;
+    }
+    .shopping-text{
+        font-size: 18px;
+        margin: 10px 0 5px 6px;
+        text-align: center;
+    }
+    h1{
+        font-size: 34px;
+        margin-top: 10px;
+    }
+    #logo{
+        padding-bottom: 6px;
+    }
+    #allContent{
+        border-top-left-radius: 26px;
+        border-top-right-radius: 26px;
+    }
+    #menu li{
+        font-size: 12px;
+        margin: 2px;
+        padding: 5px 9px;
+    }
+    .menu-list li{
+        padding-left: 15px;
+    }
+    .item img {
+        max-height: 78px;
+    }
+    .socialNetwork-title{
+        font-size: 14px;
+    }
+    .social-network{
+        padding: 7px;
+    }
+    .text-content{
+        font-size: 11px;
+    }
+    .slider-picture{
+        margin: 0 5px;
+    }
+    .securitySearch-contentBox img{
+        min-height: 35px;
+    }
+}
+
+@media (max-width: 768px){
+    .search-container{
+        line-height: 65px;
+    }
+    .vertical-align{
+        line-height: 60px;
+    }
+    .sm-hidden{
+        display: inline-block;
+        text-shadow: none;
+        margin: 8px;
+    }
+    .navbar-toggle{
+        border-color: #fff;
+    }
+    .icon-bar{
+        background-color: #fff;
+    }
+    .icon-box.align-right{
+        text-align: left;
+    }
+    #menu a:hover{
+        width: 100%;
+    }
+    #menu{
+        left: 0;
+        float: none;
+    }
+    .menu-listHeader{
+        border-radius: 10px;
+    }
+    .menu-list{
+        border-radius: 10px;
+        margin-bottom: 3px;
+    }
+    #menu li{
+        left: 0;
+        margin: 0 10px;
+        display: block;
+    }
+    .menu-list li{
+        padding: 3px 0;
+    }
+    .menu-list hr{
+        width: 50%;
+    }
+    .menu-list li:hover{
+        background-color: #ffcc99;
+    }
+    #allContent{
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+    }
+    #content-box{
+        padding: 5px 0;
+    }
+    #content-box .text-content{
+        font-size: 9px;
+    }
+    .select-box select{
+        width: 123px;
+    }
+    .social-network{
+        margin: 10px 0;
+    }
+    .social-network input{
+        width: 70%;
+        min-width: 250px;
+        margin: auto;
+        display: block;
+    }
+    .pages{
+        float: none;
+    }
+    h3, .item{
+        text-align: center;
+    }
+    .item{
+        margin-bottom: 10px;
+    }
+    .item img{
+        margin: 0 auto;
+    }
+        #contactInformation{
+        padding: 5px 0;
+    }
+    .last-div{
+        text-align: center;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    #dovidnyk{
+        height: 60px;
+        line-height: 20px;
+    }
+    #dovidnyk a{
+        display: inline-block;
+    }
+    #dovidnyk li{
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+    .dovidnyk-list{
+        text-align: center;
+    }
+    .dovidnyk-list ul{
+        display: inline-block;
+    }
+    .search-container{
+        text-align: center;
+    }
+    .search{
+        width: 50%;
+    }
+    .sm-hidden{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .item img{
+        max-height: 90px;
+    }
+    .securitySearch-text{
+        line-height: 45px;
+    }
+    .menu-list li{
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    #dovidnyk ul {
+        list-style-image: none;
+        display: none;
+    }
+    #menu li{
+        font-size: 13px;
+        padding: 2px 11px;
+    }
+    .text-header {
+        font-size: 12px;
+    }
+
+    .flag {
+        margin-right: 0;
+    }
+
+    .search{
+        height: 30px;
+        line-height: 30px;
+    }
+    .GO{
+        width: 41px;
+        height: 30px;
+        line-height: 28px;
+        font-size: 18px;
+    }
+    .search-container{
+        padding-right: 15px;
+    }
+    .sm-hidden{
+        font-size: 19px;
+    }
+    #productTitle{
+        display: none;
+    }
+    .select-box{
+        display: block;
+        margin-bottom: 5px;
+    }
+    .pages{
+        display: block;
+    }
+    #products {
+        padding-top: 0;
+    }
+    .item img{
+        max-height: 50px;
+    }
+    .productName{
+        font-size: 12px;
+    }
+    .pagination a{
+        font-size: 12px;
+    }
+    .pagination>li>a, .pagination>li>span{
+        padding: 3px 10px;
+    }
+    .menu-list li {
+        padding: 4px 0 4px 35px;
+    }
+    .navbar-toggle .icon-bar{
+        height: 1px;
+        width: 17px;
+    }
+    .navbar-toggle{
+        padding: 5px 6px;
+    }
+}
+
+@media (max-width: 768px){
+    .navbar-toggle {
+        display: block !important;
+    }
+    .navbar-collapse.collapse.in{
+        display: block !important;
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+}
+
+
+/* ----------------- @media end ---------------------*/
+
